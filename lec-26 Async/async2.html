@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #414141; color: #fff;">
+    <h1>Its Do Javascript With Sarthak</h1>
+    <button id="start">Start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+    // setInterval(function(){
+    //     console.log('Sarthak', Date.now());
+    // }, 1000)
+
+    // const sayDate = function(){
+    //     console.log('Sarthak', Date.now());
+    // }
+    // const intervalId = setInterval(sayDate, 1000, 'Hey')
+
+    // clearInterval(intervalId);
+
+    const start = document.querySelector('#start').addEventListener('click', function(){
+        console.log('Sarthak', Date.now());
+    })
+    setInterval(start, 1000, "hey")
+
+</script>
+</html>
